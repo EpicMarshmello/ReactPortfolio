@@ -16,12 +16,13 @@
   display: flex;
   width: 100vw;
   min-height: 100vh;
+  background-image: url("../src/img/bg.jpg");
 }
 
 nav {
   padding: 60px 30px 0px 30px;
   flex: var(--sidebar-flex);
-  background: #333;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 nav ul {
@@ -43,6 +44,7 @@ nav ul li a {
   padding: 100px;
   background-color: #f4f5f9;
   flex: var(--condiv-flex);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .home {
@@ -65,7 +67,7 @@ nav ul li a {
   bottom: 60px;
 }
 .social i {
-  padding-right: 30px;
+  padding: 15px;
   font-size: 25px;
   color: #9a9b9c;
 }
@@ -100,10 +102,22 @@ p {
 
 .wildcard {
   display: flex;
-  margin: 30px 0px 30px 0px;
+  margin: 30px 20px;
   transition: 0.4s;
   border-radius: 10px;
-  padding: 0.5rem;
+  padding: 20px;
+  background-color: whitesmoke;
+  width: 50%;
+}
+
+.wildcard img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.wildcard a {
+  text-decoration: none ;
+  color: inherit;
 }
 
 .wildcard:hover {
@@ -112,11 +126,16 @@ p {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
+.carddiv {
+  display: flex;
+}
+
 .skills ul {
   display: flex;
   background-color: #333;
   color: #fff;
   border-radius: 10px;
+  justify-content: space-around;
 }
 
 .skills ul li {

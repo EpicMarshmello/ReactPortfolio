@@ -4,14 +4,19 @@ class Social extends Component {
   render() {
     return (
       <div className="social">
-        <a href="/" target="_blank" rel="noopender noreferrer">
+        <a
+          href="https://github.com/EpicMarshmello"
+          target="_blank"
+          rel="noopender noreferrer"
+        >
           <i class="fab fa-github"></i>
-        </a>{" "}
-        <a href="/" target="_blank" rel="noopender noreferrer">
-          <i class="fab fa-facebook"></i>
         </a>
-        <a href="/" target="_blank" rel="noopender noreferrer">
-          <i class="fab fa-instagram"></i>
+        <a
+          href="https://www.facebook.com/bioteeradech/"
+          target="_blank"
+          rel="noopender noreferrer"
+        >
+          <i class="fab fa-facebook"></i>
         </a>
       </div>
     );
