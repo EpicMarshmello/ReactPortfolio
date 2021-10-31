@@ -25,7 +25,7 @@ class Navbar extends Component {
       <nav>
         <ul>
           <Navitems
-            item="Home"
+            item="Saaaaa"
             tolink="/"
             activenav={this.activeitem}
           ></Navitems>
