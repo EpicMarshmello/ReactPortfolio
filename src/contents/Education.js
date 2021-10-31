@@ -20,7 +20,7 @@ class Education extends Component {
         <h1 className="subtopic">Education history </h1>
         <div className="carddiv">
           <Wildcard
-            imgsrc="/static/media/uni.791eb665.jpg"
+            imgsrc="./uni.jpg"
             link="https://www.sit.kmutt.ac.th/"
             title="BA in Digital Service Innovation"
             where="King Mongkut's University of Technology Thonburi"
@@ -29,7 +29,7 @@ class Education extends Component {
             detail={uniDetail}
           />
           <Wildcard
-            imgsrc="/static/media/school.6459bfef.JPG"
+            imgsrc="./school.jpg"
             link="http://www.sk.ac.th/"
             title="High school diaploma"
             where="Suankularb wittayalai school"
