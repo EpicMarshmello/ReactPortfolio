@@ -11,6 +11,20 @@ import Contact from "./contents/Contact";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
+// function App() {
+//   return (
+//     <Router>
+//       <div className="App">
+//         <Navbar />
+//         <Home />
+//         <About />
+//         <Education />
+//         <Skills />
+//         <Contact />
+//       </div>
+//     </Router>
+//   );
+// }
 function App() {
   return (
     <Router>

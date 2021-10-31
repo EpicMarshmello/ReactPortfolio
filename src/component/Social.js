@@ -18,6 +18,7 @@ class Social extends Component {
         >
           <i class="fab fa-facebook"></i>
         </a>
+        <h3> teeradech.53627@mail.kmutt.ac.th</h3>
       </div>
     );
   }

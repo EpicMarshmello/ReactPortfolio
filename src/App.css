@@ -64,16 +64,21 @@ nav ul li a {
   position: absolute;
   margin-top: 20px;
   display: flex;
+  align-items: center;
   bottom: 60px;
 }
 .social i {
   padding: 15px;
-  font-size: 25px;
+  font-size: 25px !important;
   color: #9a9b9c;
 }
 
 .social i:hover {
   color: #333;
+}
+
+.social h3 {
+  color: #9a9b9c;
 }
 
 .typingeffect {
@@ -85,8 +90,12 @@ nav ul li a {
   text-align: center;
 }
 
+.about p {
+  margin-top: 10px;
+}
+
 .subtopic {
-  margin: 10px 10px 30px 10px !important;
+  margin: 10px 10px 20px 10px !important;
 }
 
 h1,
@@ -98,6 +107,8 @@ h4 {
 
 p {
   font-size: var(--fontsize-p);
+  width: 60%;
+  margin: auto;
 }
 
 .wildcard {
@@ -106,18 +117,24 @@ p {
   transition: 0.4s;
   border-radius: 10px;
   padding: 20px;
-  background-color: whitesmoke;
+  background-color: rgba(235, 235, 235, 0.9);
   width: 50%;
 }
 
 .wildcard img {
   width: 100%;
   object-fit: cover;
+  border-radius: 15px;
 }
 
 .wildcard a {
-  text-decoration: none ;
+  text-decoration: none;
   color: inherit;
+}
+
+.wildcard h3,
+h4 {
+  font-weight: bold;
 }
 
 .wildcard:hover {
@@ -130,19 +147,58 @@ p {
   display: flex;
 }
 
-.skills ul {
+.conskills,
+.example {
   display: flex;
   background-color: #333;
   color: #fff;
   border-radius: 10px;
-  justify-content: space-around;
+  height: 150px;
+  align-items: center;
+  margin: 30px 0;
+  justify-content: space-evenly;
 }
 
-.skills ul li {
-  list-style: none;
-  margin: 30px;
+.example {
+  height: 65%;
+  font-weight: 400;
+  width: 100%;
+  padding: 40px;
+}
+.example > * {
+  margin: 20px;
+}
+
+.example img {
+  border-radius: 25px;
+  width: 600px;
+}
+
+.example h4 {
+  font-size: 25px;
+  line-height: 2;
+}
+
+.skillicon {
+  margin-top: auto;
+  height: 120px;
+}
+
+.skillicon p{
+  width: 100%;
+  text-align: center;
+}
+
+.myicon {
+  width: 70px;
+  height: 70px;
+  filter: invert(1);
 }
 
 .active {
   font-weight: bolder;
+}
+
+.contact h3:not(:last-child) {
+  font-size: 25px;
 }
